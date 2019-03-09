@@ -1,3 +1,5 @@
+CHECK THE MODLIST AT THE "HTML" FILE
+
 CHECK THE GITHUB VERSION:
 https://github.com/GreenEarthArmy/KPLiberation_YUGO_VS_CROATIA
 
