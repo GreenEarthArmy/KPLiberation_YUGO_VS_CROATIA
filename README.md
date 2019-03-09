@@ -35,7 +35,7 @@ and find the arma 3 folder
 now go to saved
 then go to "steamMPMission"
 and now find the mission folder:
-"Liberation%20ww2%20Pacific.prei_khmaoch_luong"
+"AAAXXXPhantera.panthera3"
 
 UnPbo the mission pbo
 and then copy and paste the other mission folder at a workspace of your preference.
