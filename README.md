@@ -5,11 +5,17 @@ You'll start at the north of the map with the objective of conquer all the main 
 
 Take out radio towers to disable reinforcements in local area.
 
+
 capture the Supllies Factory (Marked with fuel markers) to buy cars and tanks.
+
 MEANING OF EACH FUEL MARKERS NAME:
+
 [A] = Ammo
+
 [S] = Supplies
+
 [F] = Fuel
+
 You can manage your resources at base with the logistics menu at the scrool menu on the FOB range.
 To buy vehicle units and buldings go to the build menu at the scrool menu at the FOB range.
 
