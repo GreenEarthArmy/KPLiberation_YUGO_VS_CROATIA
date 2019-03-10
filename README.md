@@ -1,3 +1,21 @@
+MODLIST:
+
+-ALL RHS mods
+
+-CUP TERRAINS CORE
+
+-ISLAND PHANTERA
+
+-CBA
+
+-OSRH - Armed Forces of The Republic of Croatia (1991-1995)
+
+
+
+
+
+
+
 CHECK THE GITHUB VERSION:
 https://github.com/GreenEarthArmy/KPLiberation_YUGO_VS_CROATIA
 
