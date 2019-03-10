@@ -137,5 +137,5 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-	"KOS_CRO_an2"												//To-201 Shikra
+	"KOS_CRO_an2"								//To-201 Shikra
 ];

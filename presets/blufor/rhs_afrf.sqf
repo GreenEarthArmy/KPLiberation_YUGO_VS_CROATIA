@@ -34,26 +34,26 @@ Each array below represents one of the 7 pages within the build menu.
 Format: ["vehicle_classname",supplies,ammunition,fuel],	Example: ["B_APC_Tracked_01_AA_F",300,150,150],
 The above example is the NATO IFV-6a Cheetah, it costs 300 supplies, 150 ammunition and 150 fuel to build.	*/
 infantry_units = [
-	["rhssaf_army_m93_oakleaf_summer_spotter",1,0,0],									//Rifleman (Light)
-	["rhssaf_army_m93_oakleaf_summer_rifleman_m70",5,0,0],										//Rifleman
-	["rhssaf_army_m93_oakleaf_summer_rifleman_at",10,0,0],												//Rifleman (LAT)
-	["rhssaf_army_m93_oakleaf_summer_gl",10,2,0],									//Grenadier
-	["rhssaf_army_m93_oakleaf_summer_mgun_m84",10,0,0],								//Autorifleman
-	["rhssaf_army_m93_oakleaf_summer_engineer",15,0,0],										//Marksman
-	["rhssaf_army_m93_oakleaf_summer_spec_at",15,0,0],												//AT Specialist
-	["rhssaf_army_m93_oakleaf_summer_spec_aa",15,0,0],												//AA Specialist
-	["rhssaf_army_m93_oakleaf_summer_medic",5,0,0],											//Combat Life Saver
-	["rhssaf_army_m93_oakleaf_summer_rifleman_ammo",10,0,0],										//Engineer
-	["rhssaf_army_m93_oakleaf_summer_repair",10,0,0],									//Recon Rifleman
-	["rhssaf_army_m93_oakleaf_summer_sniper_m76",15,0,0],								//Recon Rifleman (AT)
-	["rhssaf_army_m93_oakleaf_summer_exp",15,0,0],									//Recon Autorifleman
-	["rhssaf_army_m93_oakleaf_summer_crew",1,0,0],							//Recon Autorifleman Scout
-	["rhssaf_airforce_pilot_transport_heli",2,0,0],									//Recon Marksman
+	["rhssaf_army_m93_oakleaf_summer_spotter",1,0,0],						
+	["rhssaf_army_m93_oakleaf_summer_rifleman_m70",5,0,0],			
+	["rhssaf_army_m93_oakleaf_summer_rifleman_at",10,0,0],				
+	["rhssaf_army_m93_oakleaf_summer_gl",10,2,0],							
+	["rhssaf_army_m93_oakleaf_summer_mgun_m84",10,0,0],						
+	["rhssaf_army_m93_oakleaf_summer_engineer",15,0,0],						
+	["rhssaf_army_m93_oakleaf_summer_spec_at",15,0,0],						
+	["rhssaf_army_m93_oakleaf_summer_spec_aa",15,0,0],						
+	["rhssaf_army_m93_oakleaf_summer_medic",5,0,0],							
+	["rhssaf_army_m93_oakleaf_summer_rifleman_ammo",10,0,0],				
+	["rhssaf_army_m93_oakleaf_summer_repair",10,0,0],						
+	["rhssaf_army_m93_oakleaf_summer_sniper_m76",15,0,0],					
+	["rhssaf_army_m93_oakleaf_summer_exp",15,0,0],							
+	["rhssaf_army_m93_oakleaf_summer_crew",1,0,0],						
+	["rhssaf_airforce_pilot_transport_heli",2,0,0],							
 	["rhssaf_airforce_pilot_mig29",5,0,0],
 	["rhssaf_army_m93_oakleaf_summer_sq_lead",5,0,0],
 	["rhssaf_army_m93_oakleaf_summer_officer",10,0,0],
-	["rhssaf_army_m93_oakleaf_summer_ft_lead",5,0,0],										//Crewman
-	["rhssaf_army_m93_oakleaf_summer_rifleman_m21",10,0,0]			//Pilot
+	["rhssaf_army_m93_oakleaf_summer_ft_lead",5,0,0],						
+	["rhssaf_army_m93_oakleaf_summer_rifleman_m21",10,0,0]			
 ];
 
 light_vehicles = [
@@ -300,18 +300,9 @@ blufor_squad_recon = [
 ];	
 
 // Paratroopers squad.
-//blufor_squad_para = [
-	"rhs_vdv_recon_rifleman",
-	"rhs_vdv_recon_rifleman",
-	"rhs_vdv_recon_rifleman_lat",
-	"rhs_vdv_recon_rifleman",
-	"rhs_vdv_recon_rifleman",
-	"rhs_vdv_recon_rifleman_lat",
-	"rhs_vdv_recon_medic",
-	"rhs_vdv_recon_rifleman",
-	"rhs_vdv_recon_rifleman_lat",
-	"rhs_vdv_recon_marksman"
-//];
+blufor_squad_para = [
+	""
+];
 
 // Elite vehicles that should be unlocked through military base capture.
 elite_vehicles = [

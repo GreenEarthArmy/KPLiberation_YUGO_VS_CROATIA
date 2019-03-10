@@ -41,7 +41,7 @@ squads = [
 	[blufor_squad_at,145,50,0],
 	[blufor_squad_aa,145,50,0],
 	[blufor_squad_recon,40,0,0],
-	[blufor_squad_para,40,0,0]
+	[blufor_squad_para,0,0,0]
 ];
 
 // Classnames of objects which should be ignored when building

@@ -31,3 +31,16 @@ class CfgDebriefing
 		pictureBackground = "";
 	};
 };
+
+class CfgMusic
+{
+	tracks[] = {};
+	class YUGO
+	{
+		// display name
+		name	= "YUGO";
+
+		// filename, volume, pitch
+		sound[]	= { "YUGO.ogg", db + 200, 1.0 };
+	};
+};

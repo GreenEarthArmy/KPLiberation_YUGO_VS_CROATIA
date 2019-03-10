@@ -12,7 +12,6 @@ Optional Mods:
 Standard loadout of the units will be replaced with a scripted one, which depends on the guerilla strength, after spawn */
 KP_liberation_guerilla_units = [
 	"rhsgref_ins_rifleman",
-	"LOP_AM_Infantry_Rifleman",
 	"rhsgref_ins_rifleman_akm",
 	"rhsgref_ins_rifleman_RPG26",
 	"rhsgref_ins_rifleman_aks74",

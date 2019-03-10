@@ -30,7 +30,7 @@ GRLIB_arsenal_weapons = [
 	"rhs_weapon_ak74m_desert_npz",
 	"rhs_weapon_ak74m_gp25_npz",
 	"rhs_weapon_ak74m_fullplum_npz",
-	"rhs_weapon_igla".
+	"rhs_weapon_igla",
 	"rhs_weapon_rpg7",
 	"rhs_weapon_rshg2",
 	"rhs_weapon_rpg26",
