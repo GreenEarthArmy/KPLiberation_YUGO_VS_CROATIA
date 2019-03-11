@@ -38,10 +38,10 @@ switch (KP_liberation_preset_civilians) do {
 squads = [
 	[blufor_squad_inf_light,50,0,0],
 	[blufor_squad_inf,100,0,0],
-	[blufor_squad_at,145,50,0],
-	[blufor_squad_aa,145,50,0],
-	[blufor_squad_recon,40,0,0],
-	[blufor_squad_para,0,0,0]
+	[blufor_squad_at,100,50,0],
+	[blufor_squad_aa,100,50,0],
+	[blufor_squad_recon,50,0,0],
+	[blufor_squad_para,50,0,0]
 ];
 
 // Classnames of objects which should be ignored when building

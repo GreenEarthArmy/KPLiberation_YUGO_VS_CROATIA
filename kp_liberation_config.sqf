@@ -77,7 +77,7 @@ KP_liberation_preset_civilians = 0;
 4 = RHS USAF arsenal preset with ACE.
 5 = RHS USAF arsenal preset with ACE and ACRE.	
 6 = 3cbBAF and RHS USAF arsenal preset. */
-KP_liberation_arsenal = 1;
+KP_liberation_arsenal = 3;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine.	*/
@@ -153,56 +153,10 @@ KP_liberation_resistance_ambush_chance = 25;																	// Chance that some
 Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.	
 REMEMBER: All static turret and UAV bags should be defined here, to stop players from exploiting free resources via the virtual arsenal.	*/
 blacklisted_from_arsenal = [
-	""
 ];
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
 KP_liberation_allowed_items_extension = [
-	"ItemRadioAcreFlagged",
-	"rhs_acc_ekp8_18b",
-	"rhs_acc_ekp8_18c",
-	"rhs_acc_ekp8_18d",
-	"rhs_rshg2_mag",
-	"rhs_rpg26_mag",
-	"rhsusf_acc_g33_T1_flip",
-	"rhsusf_acc_g33_xps3_flip",
-	"rhsusf_acc_g33_xps3_tan_flip",
-	"rhsusf_acc_anpeq15_bk_light_h",
-	"rhs_m136_mag",
-	"rhs_m136_hedp_mag",
-	"rhs_m136_hp_mag",
-	"rhs_weap_M136_used",
-	"rhs_m72a7_mag",
-	"BWA3_optic_ZO4x30_NSV",
-	"BWA3_optic_ZO4x30_IRV",
-	"BWA3_optic_ZO4x30_Single_NSV",
-	"BWA3_optic_ZO4x30_Single_IRV",
-	"BWA3_optic_EOTech_Mag_On",
-	"BWA3_optic_EOTech_Mag_Off",
-	"BWA3_optic_EOTech_tan_Mag_On",
-	"BWA3_optic_EOTech_tan_Mag_Off",
-	"BWA3_optic_20x50_NSV",
-	"BWA3_optic_24x72_NSV",
-	"BWA3_acc_VarioRay_flash",
-	"BWA3_acc_VarioRay_laser",
-	"BWA3_acc_LLM01_flash",
-	"BWA3_acc_LLM01_laser",
-	"BWA3_acc_LLM01_flash_underbarrel",
-	"BWA3_acc_LLM01_laser_underberrel",
-	"BWA3_acc_LLM01_laser_underbarrel",
-	"BWA3_Pzf3_Used",
-	"BWA3_RGW90_Used",
-	"UK3CB_BAF_AT4_CS_AP_Mag",
-	"UK3CB_BAF_Javelin_Launcher",
-	"sma_spitfire_03_rds_low_ard_red",
-	"ACE_Chemlight_Shield_Orange",
-	"ACE_Chemlight_Shield_White",
-	"ACE_Chemlight_Shield_Blue",
-	"ACE_Chemlight_Shield_Yellow",
-	"ACE_Chemlight_Shield_Green",
-	"ACE_Chemlight_Shield_Red",
-	"ACE_ReserveParachute",
-	"ACE_launch_NLAW_Used_F"
 ];
 
 /* - Configuration settings for crates transported by vehicles.

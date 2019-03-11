@@ -54,7 +54,7 @@ while { true } do {
 
 	};
 
-	if (huron distance startbase < 10) then {
+	if (huron distance startbase < 50) then {
 		deletevehicle huron;
 	};
 	sleep 0.25;
