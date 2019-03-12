@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1686;
+		nextID=1687;
 	};
 	class LayerIndexProvider
 	{
-		nextID=58;
+		nextID=68;
 	};
 	class Camera
 	{
-		pos[]={2801.9302,46.106991,4370.52};
-		dir[]={0.9901765,-0.11607529,0.07835833};
-		up[]={0.11574341,0.99323952,0.0091589615};
-		aside[]={0.07889349,4.0648592e-007,-0.99692029};
+		pos[]={9902.9922,63.193233,8567.4902};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -254,7 +254,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=40;
+		items=41;
 		class Item0
 		{
 			dataType="Group";
@@ -9458,8 +9458,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9921.9873,2.5929375,8624.668};
-						angles[]={0,0,6.2823396};
+						position[]={9917.5439,2.5966949,8627.46};
+						angles[]={-0,0,6.2823396};
 					};
 					side="Empty";
 					flags=4;
@@ -17299,7 +17299,7 @@ class Mission
 			side="Independent";
 			class Entities
 			{
-				items=3;
+				items=2;
 				class Item0
 				{
 					dataType="Object";
@@ -17332,7 +17332,53 @@ class Mission
 					type="rhssaf_army_m93_oakleaf_summer_rifleman_m70";
 					atlOffset=-0.0011506081;
 				};
-				class Item2
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=1678;
+						item1=252;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=1679;
+						item1=252;
+						class CustomData
+						{
+							role=3;
+							cargoIndex=0;
+						};
+					};
+				};
+			};
+			id=1677;
+			atlOffset=-0.0011506081;
+		};
+		class Item40
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
@@ -17341,7 +17387,7 @@ class Mission
 						angles[]={0,4.0566339,0};
 					};
 					side="Independent";
-					flags=1;
+					flags=3;
 					class Attributes
 					{
 						stance="Middle";
@@ -17396,40 +17442,8 @@ class Mission
 			class Attributes
 			{
 			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=2;
-				};
-				class Links
-				{
-					items=2;
-					class Item0
-					{
-						linkID=0;
-						item0=1678;
-						item1=252;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=1679;
-						item1=252;
-						class CustomData
-						{
-							role=3;
-							cargoIndex=0;
-						};
-					};
-				};
-			};
-			id=1677;
-			atlOffset=-0.0011506081;
+			id=1686;
+			atlOffset=4.2031722;
 		};
 	};
 	class Connections

@@ -77,7 +77,7 @@ KP_liberation_preset_civilians = 0;
 4 = RHS USAF arsenal preset with ACE.
 5 = RHS USAF arsenal preset with ACE and ACRE.	
 6 = 3cbBAF and RHS USAF arsenal preset. */
-KP_liberation_arsenal = 3;
+KP_liberation_arsenal = 0;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine.	*/
