@@ -10,7 +10,7 @@ Optional Mods:
 Each of these should be unique, the same classnames for different purposes may cause various unpredictable issues with player actions. Or not, just don't try!	*/
 FOB_typename = "Land_Cargo_HQ_V1_F";									// This is the main FOB HQ building. 																									Default is "Land_Cargo_HQ_V1_F".
 FOB_box_typename = "B_Slingload_01_Cargo_F";							// This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
-FOB_truck_typename = "rhs_gaz66_ammo_msv";								// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
+FOB_truck_typename = "rhs_gaz66_r142_msv";								// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
 Arsenal_typename = "O_supplyCrate_F";									// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
 Respawn_truck_typename = "rhs_bmd1p";							// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
 huron_typename = "RHS_Mi8mt_vvs";										// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
@@ -226,7 +226,8 @@ support_vehicles = [
 	["ACE_Wheel",10,0,0],
 	["ACE_Track",10,0,0],
 	["RHS_Ural_Repair_VDV_01",100,0,25],								//Ural Repair
-	["RHS_Ural_Fuel_VDV_01",50,0,75],									//Gaz-66 Ammo
+	["RHS_Ural_Fuel_VDV_01",50,0,75],
+	["rhs_gaz66_ammo_msv",50,75,25],									//Gaz-66 Ammo
 	["B_Slingload_01_Repair_F",100,0,0],								//Huron Container Repair
 	["B_Slingload_01_Fuel_F",50,0,100],									//Huron Container Fuel
 	["B_Slingload_01_Ammo_F",50,100,0]									//Huron Container Ammo
@@ -307,15 +308,16 @@ blufor_squad_para = [
 elite_vehicles = [
 	"rhs_t80ue1",
 	"rhs_t80",
+	"rhs_t80a",
+	"rhs_t80bvk",
 	"rhs_t72bb_tv",
 	"rhs_t80u",
 	"rhs_bmd4ma_vdv",
 	"rhs_t80bk",
 	"rhs_bmd4m_vdv",
-	"rhs_bmd2m",
 	"rhs_bmp2k_vdv",
 	"RHS_Su25SM_vvsc",
 	"rhs_mig29s_vvsc",
-	"rhs_ka60_c",
-	"rhs_9k79"	
+	"rhs_9k79",
+	"rhs_bmd4ma_vdv"	
 ];

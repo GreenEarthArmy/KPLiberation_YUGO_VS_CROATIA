@@ -308,14 +308,16 @@ blufor_squad_para = [
 elite_vehicles = [
 	"rhs_t80ue1",
 	"rhs_t80",
+	"rhs_t80a",
+	"rhs_t80bvk",
 	"rhs_t72bb_tv",
 	"rhs_t80u",
 	"rhs_bmd4ma_vdv",
 	"rhs_t80bk",
 	"rhs_bmd4m_vdv",
-	"rhs_bmd2m",
 	"rhs_bmp2k_vdv",
 	"RHS_Su25SM_vvsc",
 	"rhs_mig29s_vvsc",
-	"rhs_9k79"	
+	"rhs_9k79",
+	"rhs_bmd4ma_vdv"	
 ];

@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1687;
+		nextID=1691;
 	};
 	class LayerIndexProvider
 	{
-		nextID=73;
+		nextID=78;
 	};
 	class Camera
 	{
-		pos[]={9971.5615,35.657555,8618.5664};
-		dir[]={-0.78713781,-0.61667526,-0.011459162};
-		up[]={-0.61661226,0.78721738,-0.0089766029};
-		aside[]={-0.014556271,-5.5936653e-008,0.99989784};
+		pos[]={9895.5586,73.023376,8749.2588};
+		dir[]={0.80440217,-0.58907092,0.07714399};
+		up[]={0.586384,0.80808353,0.056235988};
+		aside[]={0.095465466,-1.6856939e-007,-0.99544483};
 	};
 };
 binarizationWanted=0;
@@ -2640,6 +2640,7 @@ class Mission
 			};
 			id=236;
 			type="rhs_t80";
+			atlOffset=-0.00027394295;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9034,7 +9035,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9955.2021,43.935169,8748.4248};
+						position[]={9961.7607,47.491585,8771.2178};
+						angles[]={0,3.8284442,0};
 					};
 					side="Empty";
 					flags=5;
@@ -9349,8 +9351,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9922.9395,2.5921345,8639.3379};
-						angles[]={-0,0,6.2823396};
+						position[]={10021.694,2.5814877,8637.1416};
+						angles[]={-0,0,6.282495};
 					};
 					side="Empty";
 					flags=4;
@@ -9457,16 +9459,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10022.223,3.1571491,8637.459};
+						position[]={9917.999,2.5963116,8627.7363};
+						angles[]={-0,0,6.2823396};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						name="huronspawn";
 					};
 					id=51;
 					type="Land_ClutterCutter_small_F";
-					atlOffset=0.57606959;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16869,6 +16872,7 @@ class Mission
 				};
 			};
 			id=1656;
+			atlOffset=-0.00027394295;
 		};
 		class Item35
 		{
