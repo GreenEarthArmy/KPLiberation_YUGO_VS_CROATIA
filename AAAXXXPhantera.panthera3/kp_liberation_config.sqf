@@ -163,6 +163,7 @@ KP_liberation_allowed_items_extension = [
 Format = ["classname", distance behind vehicle to unload crate, attachTo positions for each box],	*/
 box_transport_config = [
 	["RHS_Mi8mt_vvs", -3.5, [0,4,-1.3], [0,3,-1.3], [0,2,-1.3], [0,1,-1.3]], 
+	["rhsgref_ins_ural", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
 	["C_Offroad_01_F", -6.5, [0,-1.7,0.4]],
 	["I_G_Offroad_01_F", -6.5, [0,-1.7,0.4]],
 	["O_G_Offroad_01_F", -6.5, [0,-1.7,0.4]],
