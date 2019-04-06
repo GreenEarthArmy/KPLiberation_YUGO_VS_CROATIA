@@ -49,12 +49,19 @@ You can also have sure that your friend won't break the rules. with the limited 
 
 *****NOW WITH MUSICS****
 classnames (WITH HIGH LETTER):
+
 ARKANE
+
 AJILA
+
 BOMBARDER
+
 GARDA
+
 HERMANA
+
 VOLIMO
+
 ZEMLJA
 
 
