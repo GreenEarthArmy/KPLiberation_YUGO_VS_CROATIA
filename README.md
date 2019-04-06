@@ -46,6 +46,25 @@ And watch the map to see the mission location.
 
 You can also have sure that your friend won't break the rules. with the limited arsenal. with Items that are only of the player faction.
 
+
+*****NOW WITH MUSICS****
+classnames (WITH HIGH LETTER):
+
+ARKANE
+
+AJILA
+
+BOMBARDER
+
+GARDA
+
+HERMANA
+
+VOLIMO
+
+ZEMLJA
+
+
 ____FULL ZEUS___
 
 After subscribing to workshop, download this:
