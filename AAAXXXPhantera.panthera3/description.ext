@@ -35,12 +35,72 @@ class CfgDebriefing
 class CfgMusic
 {
 	tracks[] = {};
-	class YUGO
+	class ARKANE
 	{
 		// display name
-		name	= "YUGO";
+		name	= "ARKANE";
 
 		// filename, volume, pitch
-		sound[]	= { "YUGO.ogg", db + 200, 1.0 };
+		sound[]	= { "ARKANE.ogg", db + 180, 1.0 };
+	};
+
+	tracks[] = {};
+	class AJILA
+	{
+		// display name
+		name	= "AJILA";
+
+		// filename, volume, pitch
+		sound[]	= { "AJILA.ogg", db + 180, 1.0 };
+	};
+	
+	tracks[] = {};
+	class BOMBARDER
+	{
+		// display name
+		name	= "BOMBARDER";
+
+		// filename, volume, pitch
+		sound[]	= { "BOMBARDER.ogg", db + 180, 1.0 };
+	};
+	
+	tracks[] = {};
+	class GARDA
+	{
+		// display name
+		name	= "GARDA";
+
+		// filename, volume, pitch
+		sound[]	= { "GARDA.ogg", db + 180, 1.0 };
+	};
+	
+	tracks[] = {};
+	class HERMANA
+	{
+		// display name
+		name	= "HERMANA";
+
+		// filename, volume, pitch
+		sound[]	= { "HERMANA.ogg", db + 180, 1.0 };
+	};
+
+	tracks[] = {};
+	class VOLIMO
+	{
+		// display name
+		name	= "VOLIMO";
+
+		// filename, volume, pitch
+		sound[]	= { "VOLIMO.ogg", db + 180, 1.0 };
+	};
+
+	tracks[] = {};
+	class ZEMLJA
+	{
+		// display name
+		name	= "ZEMLJA";
+
+		// filename, volume, pitch
+		sound[]	= { "ZEMLJA.ogg", db + 180, 1.0 };
 	};
 };

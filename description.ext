@@ -6,13 +6,13 @@ disabledAI = true;
 enableDebugConsole = 1;
 allowFunctionsLog = 0;
 
-briefingName = $STR_MISSION_TITLE;
-overviewText = "www.killahpotatoes.de";
-overviewPicture = "res\lib.paa";
-author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer";
-onLoadName = $STR_MISSION_TITLE;
-onLoadMission = "www.killahpotatoes.de";
-loadScreen = "res\lib.paa";
+briefingName = "KP_Liberation_YUGO";
+overviewText = "KP LIBERATION AT PANTHERA";
+overviewPicture = "LOAD.jpg";
+author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer, Pixie";
+onLoadName = "KP_Liberation_YUGO";
+onLoadMission = "Let us protect brotherhood and unity like the pupil of our eye, writed in a wall";
+loadScreen = "LOAD.jpg";
 
 joinUnassigned = 1;
 
@@ -34,13 +34,60 @@ class CfgDebriefing
 
 class CfgMusic
 {
-	tracks[] = {};
-	class YUGO
+	class ARKANE
 	{
 		// display name
-		name	= "YUGO";
+		name	= "ARKANE";
 
 		// filename, volume, pitch
-		sound[]	= { "YUGO.ogg", db + 200, 1.0 };
+		sound[]	= { "ARKANE.ogg", db + 0, 1.0 };
+	};
+	class AJILA
+	{
+		// display name
+		name	= "AJILA";
+
+		// filename, volume, pitch
+		sound[]	= { "AJILA.ogg", db + 0, 1.0 };
+	};
+	class BOMBARDER
+	{
+		// display name
+		name	= "BOMBARDER";
+
+		// filename, volume, pitch
+		sound[]	= { "BOMBARDER.ogg", db + 0, 1.0 };
+	};
+	class GARDA
+	{
+		// display name
+		name	= "GARDA";
+
+		// filename, volume, pitch
+		sound[]	= { "GARDA.ogg", db + 0, 1.0 };
+	};
+	class HERMANA
+	{
+		// display name
+		name	= "HERMANA";
+
+		// filename, volume, pitch
+		sound[]	= { "HERMANA.ogg", db + 0, 1.0 };
+	};
+	class VOLIMO
+	{
+		// display name
+		name	= "VOLIMO";
+
+		// filename, volume, pitch
+		sound[]	= { "VOLIMO.ogg", db + 0, 1.0 };
+	};
+	class ZEMLJA
+	{
+		// display name
+		name	= "ZEMLJA";
+
+		// filename, volume, pitch
+		sound[]	= { "ZEMLJA.ogg", db + 0, 1.0 };
 	};
 };
