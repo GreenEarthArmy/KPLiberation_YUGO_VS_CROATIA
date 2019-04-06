@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=108;
+		nextID=113;
 	};
 	class Camera
 	{
 		pos[]={9888.6768,27.086889,8631.998};
-		dir[]={0.72694147,-0.67801726,0.10908759};
-		up[]={0.67051888,0.735039,0.10062011};
-		aside[]={0.14840639,2.1325104e-007,-0.98895431};
+		dir[]={0.3641068,-0.11049426,-0.92480993};
+		up[]={0.040490355,0.99387586,-0.10284434};
+		aside[]={-0.9305104,2.7019996e-007,-0.36635077};
 	};
 };
 binarizationWanted=0;
@@ -1794,11 +1794,11 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={9952.2813,7.73,388.24701};
-			angle=6.1939626;
+			angle=6.193964;
 			class Attributes
 			{
 				condition="call{true}";
-				onActivation="call{playMusic ""YUGO"";}";
+				onActivation="call{playMusic ""AJILA"";}";
 				timeout[]={1.5,1.5,1.5};
 				interuptable=1;
 			};
